@@ -1,2 +1,36 @@
+//root
+@import "./variables.scss/variables";
 
-@import "./variables/variables";
+//base
+@import "./base.scss/base";
+
+//components-container
+@import "./components.scss/container";
+
+//components-header
+@import "./components.scss/header";
+
+//components-logo
+@import "./components.scss/logo";
+
+//components-features
+@import "./components.scss/features";
+
+//components-gallery
+@import "./components.scss/gallery";
+//components-team
+@import "./components.scss/team";
+
+//components-clients
+@import "./components.scss/clients";
+
+//components-footer
+@import "./components.scss/footer/footer_modul";
+
+
+//components-portfolio
+@import "./components.scss/portfolio.scss/portfolio_modul";
+
+//modal
+@import "./components.scss/modal.scss/modal_modul";
+
