@@ -13,7 +13,7 @@
   gap: 30px;
 }
 
-.clients__link__logo {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,8 +31,8 @@
     border-color: var(--accent-text-color);
   }
 
-  & > .clients__logo,
-  & > .clients__logo {
+  &:hover > .clients__logo,
+  &:focus > .clients__logo {
     fill: var(--accent-text-color);
   }
 }
